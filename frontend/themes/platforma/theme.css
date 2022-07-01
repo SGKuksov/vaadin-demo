@@ -1,0 +1,80 @@
+html {
+    --lumo-font-family: 'Open Sans', sans-serif;
+
+    /* RADIUS */
+    --lumo-border-radius-l: 8px;
+    --lumo-border-radius-m: 4px;
+    --lumo-border-radius-s: 4px;
+    --lumo-border-radius: 8px;
+
+    /* TINT */
+    --lumo-tint-5pct: rgba(255, 255, 255, 0.05);
+    --lumo-tint-10pct: rgba(255, 255, 255, 0.1);
+    --lumo-tint-20pct: rgba(255, 255, 255, 0.2);
+    --lumo-tint-30pct: rgba(255, 255, 255, 0.3);
+    --lumo-tint-40pct: rgba(255, 255, 255, 0.4);
+    --lumo-tint-50pct: rgba(255, 255, 255, 0.5);
+    --lumo-tint-60pct: rgba(255, 255, 255, 0.6);
+    --lumo-tint-70pct: rgba(255, 255, 255, 0.7);
+    --lumo-tint-80pct: rgba(255, 255, 255, 0.8);
+    --lumo-tint-90pct: rgba(255, 255, 255, 0.9);
+    --lumo-tint: #ffffff;
+
+    /* BACKGROUNDS */
+    --lumo-base-color: #ffffff;
+    --lumo-shade-5pct: rgba(36, 38, 41, 0.05);
+    --lumo-shade-10pct: rgba(36, 38, 41, 0.1);
+    --lumo-shade-20pct: rgba(36, 38, 41, 0.2);
+    --lumo-shade-30pct: rgba(36, 38, 41, 0.3);
+    --lumo-shade-40pct: rgba(36, 38, 41, 0.4);
+    --lumo-shade-50pct: rgba(36, 38, 41, 0.5);
+    --lumo-shade-60pct: rgba(36, 38, 41, 0.6);
+    --lumo-shade-70pct: rgba(36, 38, 41, 0.7);
+    --lumo-shade-80pct: rgba(36, 38, 41, 0.8);
+    --lumo-shade-90pct: rgba(36, 38, 41, 0.9);
+    --lumo-shade: hsl(214, 7%, 15%);
+
+    /* TYPOGRAPHY */
+    --lumo-primary-text-color: #000000;
+    --lumo-primary-color-50pct: rgba(41, 54, 113, 0.5);
+    --lumo-primary-color-10pct: rgba(41, 54, 113, 0.1);
+    --lumo-primary-color: #293671;
+    --lumo-primary-contrast-color: #FFFFFF;
+    --lumo-error-contrast-color: #FFFFFF;
+    --lumo-success-contrast-color: #FFFFFF;
+    --lumo-header-text-color: #000000;
+    --lumo-body-text-color: #000000;
+    --lumo-secondary-text-color: #000000;
+
+    /* NAUKA */
+    --nauka-font-family: var(--lumo-font-family);
+    --nauka-btn-font-family: 'Inter', sans-serif;
+    --nauka-input-font-family: 'DM Sans', sans-serif;
+
+    --nauka-base-color: var(--lumo-base-color);
+    --nauka-bg-color: #F5FAFF;
+    --nauka-primary-color: var(--lumo-primary-color);
+    --nauka-border-radius: var(--lumo-border-radius);
+
+    --nauka-input-bg: var(--nauka-bg-color);
+    --nauka-tab-text-color: var(--nauka-primary-color);
+}
+
+[theme~="dark"] {
+    --lumo-primary-text-color: rgb(60, 177, 255);
+    --lumo-primary-color-50pct: rgba(60, 177, 255, 0.5);
+    --lumo-primary-color-10pct: rgba(60, 177, 255, 0.1);
+    --lumo-primary-color: #3CB1FF;
+    --lumo-secondary-text-color: #3CB1FF;
+    --lumo-header-text-color: #FFFFFF;
+    --lumo-body-text-color: #FFFFFF;
+    --lumo-primary-contrast-color: #ffffff;
+    --lumo-base-color: #2C2D2C;
+
+    /* NAUKA */
+    --nauka-bg-color: #1E1E1E;
+    --nauka-primary-color: var(--lumo-primary-color);
+
+    --nauka-input-bg: var(--nauka-base-color);
+    --nauka-tab-text-color: var(--lumo-primary-color);
+}

@@ -1,0 +1,15 @@
+:host(vaadin-login-form-wrapper) {
+    max-width: 491px;
+}
+
+[part='form'] {
+    padding: 0 90px;
+}
+
+[part="form-title"] {
+    display: none;
+}
+
+#forgotPasswordButton {
+    display: none;
+}

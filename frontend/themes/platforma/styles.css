@@ -1,0 +1,11 @@
+@import url('line-awesome/dist/line-awesome/css/line-awesome.min.css');
+@import url('./fonts.css');
+@import url('./theme.css');
+@import url('./login-page.css');
+@import url('./home-page.css');
+@import url('./page-header.css');
+@import url('./main-nav.css');
+
+html {
+    font-family: var(--nauka-font-family);
+}

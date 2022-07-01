@@ -1,0 +1,17 @@
+:host {
+    transition: 300ms background-color;
+    min-width: 67px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: var(--nauka-tab-text-color);
+    cursor: pointer;
+}
+
+:host:after,
+:host:before {
+    display: none;
+}
+
+:host([selected]) {
+    background: var(--nauka-bg-color);
+}

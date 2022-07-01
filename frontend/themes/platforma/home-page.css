@@ -1,0 +1,22 @@
+.home-page {
+    background: var(--nauka-bg-color);
+    padding: 0 0 30px;
+}
+
+.home-page__container {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    height: calc(100vh - 111px);
+}
+
+.home-page__frame {
+    background: var(--nauka-base-color);
+    border-radius: var(--nauka-border-radius);
+    flex: 1;
+}
+
+.home-page__nav {
+    background: var(--nauka-base-color);
+    border-radius: var(--nauka-border-radius);
+}

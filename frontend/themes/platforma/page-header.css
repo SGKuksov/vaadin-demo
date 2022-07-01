@@ -1,0 +1,71 @@
+.page-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+
+    background-color: var(--nauka-base-color);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.page-header__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.page-header__logo-short {
+}
+
+.page-header__logo-text {
+    margin-left: 16px;
+}
+
+.page-header__tabs-wrapper {
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0;
+}
+
+.page-header__tabs {
+    height: 100%;
+    box-shadow: none;
+}
+
+.page-header__home-icon {
+    color: var(--nauka-primary-color);
+}
+
+.page-header__theme {
+    color: var(--nauka-primary-color);
+}
+
+[theme~="dark"] .page-header__theme {
+    color: var(--nauka-primary-color);
+}
+
+.page-header__profile {
+    font-weight: 400;
+    font-family: var(--nauka-font-family);
+    cursor: pointer;
+}
+
+[theme~="dark"] .page-header__profile {
+    color: #ffffff;
+}
+
+.page-header__profile-icon {
+    color: #A3AED0;
+}
+
+.page-header__logout {
+    color: var(--nauka-primary-color);
+    cursor: pointer;
+}
+
+[theme~="dark"] .page-header__logout {
+    color: var(--nauka-primary-color);
+}

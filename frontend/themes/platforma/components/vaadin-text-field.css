@@ -1,0 +1,11 @@
+:host(:host([has-label])) {
+    /*padding: 0;*/
+}
+
+:host([has-label])::before {
+    margin-top: 18px;
+}
+
+[part="label"] {
+    /*display: none;*/
+}

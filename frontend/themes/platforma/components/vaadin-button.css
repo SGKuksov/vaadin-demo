@@ -1,0 +1,12 @@
+:host {
+  font-family: var(--nauka-btn-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+:host([theme~="primary"]) {
+  background: var(--nauka-primary-color);
+  /*border-radius: 20px;*/
+}
