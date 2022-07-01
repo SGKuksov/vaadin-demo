@@ -18,8 +18,8 @@ public class DataGrid extends Component {
         setItems(MockData.getData());
     }
 
-    private void setItems(List<String> items) {
-        getElement().setProperty("items", "[{\"dovDate\":\"2022-02-02T00:00\",\"dogId\":1,\"endDate\":\"2022-01-01T00:00\",\"insertDate\":\"2022-06-06T00:00\",\"materialId\":3,\"dovNumber\":1,\"eiId\":5,\"id\":1,\"materialCount\":4,\"objStructId\":1,\"startDate\":\"2022-02-02T00:00\",\"telegramPosId\":5,\"status\":\"a\"},{\"dovDate\":\"2022-02-02T00:00\",\"dogId\":1,\"endDate\":\"2022-01-01T00:00\",\"insertDate\":\"2021-06-06T00:00\",\"materialId\":3,\"dovNumber\":1,\"eiId\":5,\"id\":2,\"materialCount\":3,\"objStructId\":2,\"startDate\":\"2022-02-02T00:00\",\"telegramPosId\":5,\"status\":\"a\"}]");
+    private void setItems(String json) {
+        getElement().setProperty("items", json);
     }
 
     public void setTitle(String title) {

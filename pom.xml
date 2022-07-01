@@ -33,7 +33,7 @@
         <dependency>
             <groupId>ru.ntik.platform</groupId>
             <artifactId>core-platform</artifactId>
-            <version>0.1.2-ui</version>
+            <version>0.2.4</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.flywaydb</groupId>
